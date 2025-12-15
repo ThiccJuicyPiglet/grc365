@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Capstone Home Page">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Yendri Sanchez">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="refresh" content="30">
+	<title>Capstone Home</title>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		} body {
+			background: whitesmoke;
+		} #page {
+			width: 1024px;
+			height: 1525px;
+			background: lightgrey;
+			border: 1px solid darkgray;
+			box-shadow: 2px 3px 6px darkgray;
+			margin: 24px auto;
+		} #textbox {
+			width: 768px;
+			height: 768px;
+			margin: 48px auto;
+			border: 1px dashed gray;
+		} #banner {
+			width: 1024px;
+		} h1 {
+			font: 48pt/1.4em "Gill Sans MT";
+			text-align: center;
+			margin: 10px 0 0 0;
+			color: brown;
+			text-shadow: 2px 3px 6px darkgray;
+		} p {
+			font: 14pt/1.4em Georgia;
+			width: 568px;
+			margin: 20px auto;
+			padding-bottom: 10px;
+		} img.float-left {
+			width: 200px;
+			animation: 5s rotate360 infinite linear;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		} ul {
+			width: 100%;
+			margin-top: -4px;
+		} li {
+			font: 14pt/2.0em "Gill Sans MT";
+			list-style: none;
+			float: left;
+			width: 50%;
+			height: 40px;
+			text-align: center;
+			background: rgba(169,225,245,0.80);
+			outline: 1px solid white;
+		} a li {
+			color: black;
+			
+		} a {
+			text-decoration: none;
+		} li:hover, a li:hover {
+			background: rgba(169,225,245,0.50);
+		} @keyframes rotate360 {
+			to { transform: rotate(360deg);
+			}
+		}
+	</style>
+</head>
+
+<body>
+    <div id="page">
+        <img id="banner" src="daniela.jpg" />
+        <ul>
+            <a href="Capstone.html"><li>Home</li></a>
+			<a href="video.html"><li>Balloon Federation of America</li></a>
+			<a href="assignment-4-5-6a"><li>Portfolio and Tables</li></a>
+			<a href="assignment-6b.html"><li>Grid Layout</li></a>
+			<a href="assignment-8.html"><li>Type Sample</li></a>
+			<a href="assignment-9.html"><li>Responsive Design</li></a>
+			<a href="assignment-10.html"><li>Animation</li></a>
+			<a href="assignment-12.html"><li>JavaScript</li></a>
+        </ul>
+        <h1>Capstone Home</h1>
+		<center><img class="float-left" src="thumb-skull-animation.png" /></center>
+        <p>
+            Thanks for coming, This is the home for the capstone website. I will use this in the futrue for my personal website, but for now this serves as the assignment submission.
+		</p>
+   </div>
+</body>
+</html>
