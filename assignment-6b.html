@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    * {margin: 0; padding: 0;}
+    body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 1228px;
+        margin: 0 auto;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+        background: white;
+    } h1 {
+        font: 48pt/1.4em Roboto, Helvetica, Arial, sans-serif;
+        text-align: center;
+    } #textbox {
+        width: 768px;
+        height: 576px;
+        margin: 0 auto;
+        border: 1px dashed darkgray;
+        display: grid;
+        grid-template: 288px 288px / 384px 384px;
+    } img {
+        width: 384px;
+    } #morph {
+        width: 384px;
+        height: 576px;
+        background: url("grid-animal-morph.png");
+        background-size: cover;
+        background-position: center;
+        grid-area: 1/1;
+    } #skull, #illustration {
+        width: 384px;
+        height: 288px;
+    } #skull {
+        background: url("grid-skull.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        grid-area: 2/2;
+    } #illustration {
+        background: url("grid-illustration.png");
+        background-size: contain;
+        background-position: center;
+        grid-area: 1/2;
+	} #skull, #illustration, #morph {
+	}
+</style>
+</head>
+
+<body>
+    <div id="page">
+    <h1>Portfolio in Grid Layout</h1>
+        <div id="textbox">
+            <div id="morph"></div>
+            <div id="illustration"></div>
+            <div id="skull"></div>
+        </div>
+    </div>
+</body>
+</html>
