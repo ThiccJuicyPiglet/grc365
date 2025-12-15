@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    * {margin: 0; padding: 0;}
+    body {
+        background: whitesmoke;
+    } #page {
+        width: 1024px;
+        height: 1228px;
+        margin: 0 auto;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+        background: white;
+    } h1 {
+        font: 48pt/1.4em Roboto, Helvetica, Arial, sans-serif;
+        text-align: center;
+    } #textbox {
+        width: 928px;
+        height: 400px;
+        margin: 0 auto;
+        // border: 1px dashed darkgray;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    } img.thumb {
+        width: 200px;
+        height: 240px;
+        border: 1px solid darkgray;
+        box-shadow: 2px 3px 6px darkgray;
+    } figure {
+        width: 200px;
+        margin: 18px;
+    } figcaption {
+        font: 12pt/1.4em Roboto;
+        text-align: center;
+    } table {
+        border-collapse: collapse;
+        width: 400px;
+        margin: 0 auto;
+        border: 1px solid darkgray;
+        font: 12pt/1.4em Roboto;
+    } td, th {
+        padding: 3px 12px;
+    } tr:nth-child(odd) {
+        background: whitesmoke;
+    }
+</style>
+</head>
+
+<body>
+    <div id="page">
+    <h1>Portfolio</h1>
+        <div id="textbox">
+            <figure>
+            <a href="animal-morph.png">
+            <img class="thumb" alt="" src="thumb-animal-morph.png" />
+            </a>
+            <figcaption>Digital drawing of a Pokemon morph</figcaption>
+            </figure>
+            <figure style="width: 300px;">
+            <a href="IG Skull Profile ic.png">
+            <img class="thumb" alt="" src="thumb-skull.png" style="width: 300px; height: 240px;" />
+            </a>
+            <figcaption>Digital drawing of a Fictional Skull</figcaption>
+            </figure>
+            <figure style="width: 300px;">
+            <a href="IG Skull Profile ic.png">
+            <img class="thumb" alt="" src="thumb-illustration.png" style="width: 300px; height: 240px;" />
+            </a>
+            <figcaption>Digital drawing of DJ</figcaption>
+            </figure>
+        </div>
+        <table>
+            <tr>
+                <th colspan="2">List of My Works</th>
+            </tr>
+            <tr>
+                <th>Title</th>
+                <th>Medium</th>
+            </tr>
+            <tr>
+                <td>Pokemon Morph</td>
+                <td>Digital drawing</td>
+            </tr>
+            <tr>
+                <td>DJ</td>
+                <td>Digital drawing</td>
+            </tr>
+            <tr>
+                <td>Fictional Skull</td>
+                <td>Digital drawing</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
